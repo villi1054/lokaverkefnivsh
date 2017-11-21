@@ -4,6 +4,8 @@
 .font1{
 	font-family: 'Patua One', cursive;
 	font-size: 4em;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .font2{
