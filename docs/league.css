@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.font1{
+	font-family: 'Patua One', cursive;
+	font-size: 4em;
+}
+
+.font2{
+	font-family: 'Patua One', cursive;
+	font-size: 2em;
+}
+
+.font3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+
+.center{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+body{
+	background-image: url("wallpaper.png");
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+  line-height: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 3em;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #DEC897;
+}
+
+nav li + li {
+    background:url('seperator.png');
+    padding-left: 10px
+}
+
+.div{
+	background-color: rgba(227, 235, 241, 0.7);
+	width:850px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px;
+	border:1px solid #FFFFFF;
+	border-radius: 25px; 
+}
