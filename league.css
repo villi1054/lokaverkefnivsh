@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.font1{
+	font-family: 'Patua One', cursive;
+	font-size: 4em;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.font2{
+	font-family: 'Patua One', cursive;
+	font-size: 2em;
+}
+
+.font3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+
+
+.center{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	background: rgba(0,0,0,0.4);
+}
+
+.center2{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.flex{
+	width: 9.1em;
+	background: rgba(133,133,133,0.1);
+}
+
+.border{
+	border-right: 1px solid white;
+}
+
+.border2{
+	border-left: 1px solid white;
+}
+
+.border3{
+	border-bottom: 2px solid rgb(255, 116, 79);
+}
+
+.border4{
+	border-bottom: 2px solid rgb(108, 206, 255);
+}
+
+.border5{
+	border-bottom: 2px solid rgb(255, 235, 108);
+}
+
+.border6{
+	border-bottom: 2px solid rgb(184, 255, 108);
+}
+
+.border7{
+	border-bottom: 2px solid rgb(111, 108, 255);
+}
+
+body{
+	background-image: url("wallpaper.png");
+}
+
+.container{
+	max-width: 60em;
+	margin:0 auto;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: rgba(133, 133, 133, 0.0);
+  text-align: center;
+  justify-content: space-around;
+  padding:0 auto;
+  margin:0 auto;
+}
+.nav li {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+  color: black;
+  line-height: 35px;
+  height: 35px;
+  display: block;
+  float: left;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.div{
+	background-color: rgba(227, 235, 241, 0.7);
+	width:850px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px;
+	border:1px solid #FFFFFF;
+	border-radius: 25px; 
+}
+
+.div2{
+	background-color: rgba(227, 235, 241, 0.7);
+	width:850px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2.3em;
+	padding: 15px;
+	border:1px solid #FFFFFF;
+	border-radius: 25px; 
+}
